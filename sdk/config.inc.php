@@ -27,19 +27,19 @@ define('AWS_SECRET_KEY', 'YOUR_AWS_SECRET_KEY');
  * Amazon Account ID without dashes. Used for identification with Amazon EC2. Found in the AWS Security
  * Credentials.
  */
-define('AWS_ACCOUNT_ID', '211064619829');
+define('AWS_ACCOUNT_ID', 'YOUR_ACCOUNT_ID');
 
 /**
  * Your CanonicalUser ID. Used for setting access control settings in AmazonS3. Found in the AWS Security
  * Credentials.
  */
-define('AWS_CANONICAL_ID', '2c58edce06e764af291d74eee2666ef0c70240c147b5a38a1d1d7da4705ca68a');
+define('AWS_CANONICAL_ID', 'YOUR_CANONICAL_ID');
 
 /**
  * Your CanonicalUser DisplayName. Used for setting access control settings in AmazonS3. Found in the AWS
  * Security Credentials (i.e. "Welcome, AWS_CANONICAL_NAME").
  */
-define('AWS_CANONICAL_NAME', 'sirimon');
+define('AWS_CANONICAL_NAME', 'YOUR_CANONICAL_NAME');
 
 /**
  * Determines which Cerificate Authority file to use.
